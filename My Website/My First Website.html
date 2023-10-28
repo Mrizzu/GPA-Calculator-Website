@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UV-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./Design.css">
+    <title>GPA Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-class">
+            <h1>result</h1>
+            <div class="resultbox">
+                <h2>Percent : <span class="per"></span></h2>
+                <h2>GPA/GPAX : <span class="gra"></span></h2>
+            </div>
+        </div>
+        <div class="content">
+            <div class="right-box">
+                <input type="number" id="fourone" placeholder="ม.4 เทอม 1">
+                <input type="number" id="fourtwo" placeholder="ม.4 เทอม 2">
+                <input type="number" id="fiveone" placeholder="ม.5 เทอม 1">
+                <input type="number" id="fivetwo" placeholder="ม.5 เทอม 2">
+                <input type="number" id="sixone" placeholder="ม.6 เทอม 1">
+                <input type="number" id="sixtwo" placeholder="ม.6 เทอม 2">
+                <button type="button" onclick="show_result()">show result</button>
+            </div>
+        </div>
+        <div class="error">
+        <span>
+        </span>
+        </div>
+        <div class="credits">Website by : Tanyathorn Ketmetta
+        </div>
+    </div>
+
+    <script src="./JScriptForGPA.js"></script>
+</body>
+</html>
